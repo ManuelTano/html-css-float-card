@@ -36,7 +36,7 @@ section{
     margin-top: 70px;
 }
 
-h2, h4 {
+h2, span {
     color: white;
 }
 
@@ -44,7 +44,7 @@ h2, h4 {
 
 .card {
     background-color: black;
-    width: calc(1200px/3);
+    width: calc(1200px / 3 - 15px );
     float: left;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -58,7 +58,14 @@ img{
 .testo{
     float: right;
     vertical-align: middle;
+    padding-right: 55px;
+    padding-top: 15px;
 
+}
+
+a{
+    text-decoration: none;
+    color: #3B94CC
 }
 
 .clearfix::after{
