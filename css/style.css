@@ -1,39 +1,64 @@
 /* Generics */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body {
-    margin: 0 auto;
     font-family: 'Fredoka', sans-serif;
 }
 
 /* Contenitore */
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 20px;
+    
 }
 
 /* Intestazione */
 
 header {
     text-align: center;
+    margin-top: 35px;
 }
 
 h1{
     color: #E63A76;
 }
 
+p{
+    margin-top: 35px;
+}
+
+section{
+    margin-top: 70px;
+}
+
+h2, h4 {
+    color: white;
+}
+
 /* Card */
 
 .card {
     background-color: black;
-    width: 100px;
-    display: inline block;
+    width: calc(1200px/3);
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 img{
     height: 100px;
-    float: left;
+    vertical-align: middle;
+}
+
+.testo{
+    float: right;
+    vertical-align: middle;
+
 }
 
 .clearfix::after{
