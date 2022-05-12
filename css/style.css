@@ -1,0 +1,43 @@
+/* Generics */
+
+body {
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Contenitore */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Intestazione */
+
+header {
+    text-align: center;
+}
+
+h1{
+    color: #E63A76;
+}
+
+/* Card */
+
+.card {
+    background-color: black;
+    width: 100px;
+    display: inline block;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
